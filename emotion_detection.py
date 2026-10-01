@@ -1,3 +1,6 @@
+
+exit()
+cat > emotion_detection.py << 'EOF'
 import requests
 
 def emotion_detector(text_to_analyse):
